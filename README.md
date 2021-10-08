@@ -1,3 +1,3 @@
 # sajisajisaji.github.io
-## GitHubの練習
-## GitHubの練習その2
+## GitHubの練習 その1
+## GitHubの練習 その2
