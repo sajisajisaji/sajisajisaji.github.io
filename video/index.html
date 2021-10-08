@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>動画テスト（台湾：道路）</title>
+
+<!-- Adobeフォント：ここから -->
+<script>
+  (function(d) {
+    var config = {
+      kitId: 'mlk2qgi',
+      scriptTimeout: 3000,
+      async: true
+    },
+    h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+  })(document);
+</script>
+<!-- Adobeフォント：ここまで -->
+
+
+
+<style>
+html,body,h1{
+margin: 0;
+padding: 0;
+}
+
+.video-wrapper{
+width: 100%;
+height: 100vh;
+position: fixed;
+top: 0;
+left: 0;
+z-index: -1;
+}
+
+.video-wrapper>video{
+object-fit: cover;
+width: 100%;
+height: 100%;
+}
+
+.txt-box{
+background-color: rgba(255, 255, 255, 0.38);
+padding: 50px;
+margin: 50px;
+width: 40%;
+box-sizing: border-box;
+border-radius: 10px;
+}
+
+h1{
+font-size: 60px;
+margin-bottom: 40px;
+font-family: cy, sans-serif;
+font-weight: 700;
+font-style: normal;
+line-height: 1.25;
+}
+
+p{
+font-size: 20px;
+line-height: 1.5;
+font-family: cy, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+</style>
+</head>
+
+<body>
+<div class="video-wrapper">
+<video src="img/taiwan.mp4" autoplay muted loop></video>
+</div>
+<div class="txt-box">
+<h1>Lorem ipsum dolor sit amet.</h1>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, molestias sint quam magni quis doloribus repellendus possimus necessitatibus pariatur sed quasi fugiat quas consectetur itaque eius reprehenderit, eum error laborum.</p>
+</div>
+
+</body>
+</html>
